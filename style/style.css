@@ -61,3 +61,10 @@ main {
     transform: scale(1.1) translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
 }
+
+@media screen and (min-width: 360px) and (max-width: 440px){
+        #redes {
+        display: block;
+        text-align: left;
+}
+}
