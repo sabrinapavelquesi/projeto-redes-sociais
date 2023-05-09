@@ -40,12 +40,6 @@ main {
     height: 472px;
 }
 
-#redes {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-}
-
 #redes img {
     width: 50px;
     margin: 8px;
