@@ -11,9 +11,10 @@ html, body {
 }
 
 body {
-    background: url(../minhas-imagens/background.jpg) no-repeat top center;
+    background: url(../minhas-imagens/background.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #464646;
 }
 
 main {
@@ -30,6 +31,8 @@ main {
     width: 311px;
     background: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
+    max-width: 311px;
+    max-height: 627px;
 }
 
 #tela {
@@ -62,6 +65,7 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
 }
 
+/*For mobile devices*/
 @media screen and (min-width: 360px) and (max-width: 440px){
         #redes {
         display: block;
